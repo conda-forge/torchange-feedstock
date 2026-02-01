@@ -1,5 +1,5 @@
 {% set name = "torchange" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchange-{{ version }}.tar.gz
-  sha256: 0aaaa719db282e7196adb08ae355692f571426ccbc259aa42f5b1e4fce803b06
+  sha256: 34fa72590eab20c9546b0e9253c954aa1c8d9d88d85f1e4abb3b0feedaf6ac43
 
 build:
   noarch: python
